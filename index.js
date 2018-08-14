@@ -18,7 +18,7 @@ function currentLine(array) {
   else {
     let list = "The line is currently: ";
     for(let i = 0; i < array.length; i++) {
-      list = list + (i+1) + ". " + array[i];
+      list += (i+1) + ". " + array[i];
       if (i < array.length-1) {
         list+= ", "
       }
